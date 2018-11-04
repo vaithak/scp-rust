@@ -1,5 +1,6 @@
 # scp-rust
 A basic scp clone implementation written in rust for rust hackathon in IIT Kanpur.  
+(currently recursive function does not work) 
 
 ### Steps to run
 => cd into the directory and run `cargo build`.  

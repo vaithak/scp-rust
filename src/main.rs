@@ -5,13 +5,13 @@ use walkdir::WalkDir;
 use std::fs;
 
 // -> io::Result<()>
-// Recursively copying folders
-fn recursive_copy(source_path: String, dest_path: String) {
-    for entry in WalkDir::new(source_path).follow_links(true) {
-        let entry = entry.unwrap();
-        println!("{}", entry.path().display());
-    }
-}
+// Recursively copying folders => currently not implemented
+// fn recursive_copy(source_path: String, dest_path: String) {
+//     for entry in WalkDir::new(source_path).follow_links(true) {
+//         let entry = entry.unwrap();
+//         println!("{}", entry.path().display());
+//     }
+// }
 
 // Function to simply copy a file
 fn simple_copy(source_path: String, dest_path: String) -> std::io::Result<()>{

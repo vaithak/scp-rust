@@ -4,3 +4,4 @@ version = "0.1.0"
 authors = ["Vaibhav Thakkar <vaibhav.thakkar.22.12.99@gmail.com>"]
 
 [dependencies]
+walkdir = "2.2.6"
